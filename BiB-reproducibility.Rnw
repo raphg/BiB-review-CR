@@ -17,19 +17,10 @@ library(reshape2)
 library(plyr)
 #Set some knitr options
 opts_knit$set(progress = TRUE, verbose = TRUE)
-opts_chunk$set(cache=TRUE, fig.width=16, echo=TRUE, eval=TRUE, message=FALSE, warning=FALSE)
+opts_chunk$set(cache=FALSE, fig.width=16, echo=TRUE, eval=TRUE, message=FALSE, warning=FALSE)
 @
 
 
-<<load-packages-options,cache=FALSE,echo=FALSE,message=FALSE,warning=FALSE>>=
-library(ggplot2)
-library(gdata)
-library(reshape2)
-library(plyr)
-#Set some knitr options
-opts_knit$set(progress = TRUE, verbose = TRUE)
-opts_chunk$set(cache=TRUE, fig.width=16, echo=TRUE, eval=TRUE, message=FALSE, warning=FALSE)
-@
 
 
 \begin{document}
@@ -62,6 +53,30 @@ In addition to the experimental protocol, data analysis contributes siginificant
 \section{Reproducibility of assay and primary data}
 \subsection{Overview of data generation process and its impact on C\&R}
 \subsection{Metrics to quantify C\&R}
+
+\begin{figure}
+\begin{center}
+<<"data-for-reproducibility", fig.width=8,fig.height=6,dev=c('pdf', 'postscript'),echo=FALSE,dev.args=list(pointsize=16)>>=
+# Set a seed for reproducibility
+set.seed(6)
+
+# True estimate
+true.mean<-6
+# Number of replicates
+n<-100
+biased.low.var<-rnorm(n,true.mean+3,sd=1)
+biased.high.var<-rnorm(n,true.mean+2,sd=1.5)
+unbiased.low.var<-rnorm(n,true.mean,sd=2)
+unbiased.high.var<-rnorm(n,true.mean+3,sd=3)
+
+data<-data.frame(Replicates=c(unbiased.low.var,unbiased.high.var,biased.low.var,biased.high.var),variance=c(rep("Low variance",n),rep("High variance",n),rep("Low variance",n),rep("High variance",n)),bias=c(rep("Unbiased",n),rep("Unbiased",n),rep("Biased",n),rep("Biased",n)),Protocol=c(rep("A",n),rep("B",n),rep("C",n),rep("D",n)),Exp=rep("x",4*n))
+
+ggplot()+geom_boxplot(data=data,aes(y=Replicates,x=Exp,fill=Protocol,alpha=Protocol),outlier.size=0)+geom_abline(data=data,intercept=true.mean,slope=0,size=2,color="black",alpha=.5)+facet_grid(variance~bias)+theme_bw()+opts(panel.grid.major=theme_blank(),panel.grid.minor=theme_blank(),axis.text.y = theme_blank(),axis.text.x = theme_blank(), axis.title.x = theme_blank(), axis.ticks=theme_blank())+ annotate("text", 0, 6, label = "Truth", hjust = -0.5, vjust = -0.5)
+@
+\caption{Variance-Bias trade off. }
+\end{center}
+\end{figure}
+
 \subsection{Correcting for experimental bias}
 % Here we will talk about preprocessing such as normalization, batch effect correction, etc. 
 \subsection{Standards and data sharing}
