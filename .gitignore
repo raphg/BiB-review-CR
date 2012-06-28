@@ -13,3 +13,5 @@ cache/*
 *.tex
 *.pdf
 *.log
+BiB-reproducibility.tex
+BiB-reproducibility.pdf
