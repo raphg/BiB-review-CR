@@ -9,5 +9,6 @@
 *.lof
 *.fff
 BiB-review-CR.Rproj
-figure/*
-cache/*
+figure/
+cache/
+BiB-reproducibility.synctex.gz
