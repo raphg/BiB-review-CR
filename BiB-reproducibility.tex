@@ -453,11 +453,13 @@ The paper is organized as follows
 \end{knitrout}
 
 \caption{Variance-Bias trade off. }
+
 \end{center}
 \end{figure}
 
 \subsection{Correcting for experimental bias}
 % Here we will talk about preprocessing such as normalization, batch effect correction, etc. 
+% Talk about preprocessing for variance-bias (e.g. Microarrays and background subtraction)
 \subsection{Standards and data sharing}
 
 
@@ -466,10 +468,29 @@ The paper is organized as follows
 Here we discuss some of the tools available to researchers to perform reproducible analysis and share processed data, computer code and final results. 
 
 \subsection{Tools for reproducible analyses}
-
+% R and Bioconductor
+% RStudio
+% BioPerl, BioPython
+% GenomeSpace
+% LabKey
 \subsection{Standards and code sharing}
-
+In the same fashion that experimental protocols need to be published in order for an experiment to be reproduced, computer code and data should also be published along with the results of a data analysis. In order to facilitate exchange and reproducibility, code and data should be standardized as much as possible. 
+to embed the R code for complete data analyses in latex documents
+% GitHub
+% RStudio
+% Open Source
 \subsection{Authoring tools}
+% Sweave, knitr, Rstudio, openoffice, pandoc
+% GenePattern and Word plugin
+
+
+Several tools have been proposed to automatically incorporate 
+reproducible data analysis pipelines or computer code into documents.
+An example is the GenePattern Word plugin that can be used to embed analysis pipelines in a document and rerun them on any GenePattern server from the Word application. 
+Another example that is popular among statisticians and bioinformatics is the Sweave literate language that allows one to create dynamic reports by embeding R code in latex documents. This is also our prefered approach because it is open source and does not depend on propriety software. In addition, recent software development such as RStudio and knitr made working with Sweave even more accessible, which should reduce the learning curve for most users. In fact, this article was written using the Sweave language and processed using RStudio. 
+Ideally, all material including the Sweave source file, computer code and data, which Gentleman refers to as a compendium, would be made available along with the final version of the manuscript and be open access, allowing anyone to reproduce the results or identify potential problems in the analysis. This openness should further improve the impact of open access papers and journals over non-open access journals by giving more credibility to the published results. Unfortunately, currently very few journals are pushing for reproducibility and even less have clear reproducibility policies. An example of a journal moving in the right direction is Biostatistics, for which one of us is associate editor. Biostatistics now has a reproducility guideline and is now working with authors towards making sure that published results are reproducible given that data and code are provided (as described in the guileline). When data and code are provided, and results are reproducible, the article is marked with an R. 
+
+\subsection{Open science}
 
 \section{Conclusion}
 
