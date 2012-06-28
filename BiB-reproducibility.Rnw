@@ -91,23 +91,23 @@ ggplot()+geom_boxplot(data=data,aes(y=Replicates,x=Exp,fill=Protocol,alpha=Proto
 
 \section{Reproducibility of assay results and derived data}
 
-Here we discuss some of the tools available to researchers to perform reproducible analysis and share processed data, computer code and final results. 
+Here we discuss some of the tools available to researchers to perform reproducible analysis and share processed data, computer code and final results. Analysis of data issued from high throughput experiments can be extremely complex, involving multiple steps from data formating, pre-processing to statistical inference. Thus it is important that all steps be recorded for full reproducibility. Unfortunatelly, this is difficult to do with a point-and-click software interface, where there is no easy to save intermediate step. This is not to mention the fact that the ``manual'' analysis of a typical high throughput data set would typically require the used of multiple software and be very time consuming. In addition, it is not clear how robust the conclusions of a study are to small perturbations in any of these analysis steps. As such, it might be a good idea to be able to quickly redo an analysis after tweaking some parameters to optimize the analysis; something that is not practical with a typical point-and-click software. 
+
 
 \subsection{Tools for reproducible analyses}
-% R and Bioconductor
-% RStudio
-% BioPerl, BioPython
-% GenomeSpace
-% LabKey
+In the recent years, several open source, community-based projects have emerged that enable researchers to contrusct and share complete and fully reproducible data analysis pipelines.
+The Bioconductor project, based on the R statistical language, provide more than 500 software packages for the analysis of a wide range of biomedical data from gene expression microarrays to flow cytometry and next generation sequencing. These packages can be combined via a script written in the R language to form complex data analysis pipelines, connect to data reporistory, and generate high quality graphics. The resulting R script can then be used to record and later reproduce the analysis (along with all input parameters) from data to final results. Because all steps of the analysis are automated when the script is executed, it makes it easier to assess the robustness of the results when tuning some parameters. Other similar projects with perhaps more focused capabilities include Biopython and Bioperl that are based on the Python and Perl languages. For example, neither BioPython nor Perl have tools for the analysis of flow cytometry data. 
+
+Even though several graphical user interface (e.g. RStudio for R) are now available for writing computing scripts based on R/Bioconductor (or BioPerl, BioPython), the learning curve can still be steep for novice users. Several web based tools are now available to construct data analysis pipelines using a combinations of available modules that are for the most part wrappers for packages available in R, Perl or Python (or some other language). For example, a popular open source graphical-user-interface for gene expression analysis, GenePattern, versions every pipeline and its methods, ensuring that each version of a pipeline (and its results) remain static, even the pipeline continues to progress. A more recent project, GenomeSpace, funded by the National Human Genome Research Institute (NHGRI) can now combine GenePattern with other popular Bioinformatics tools including Galaxy, Cytoscape and the UCSC genome browser. As such, users can perform all of their analysis using a single platform. In the clinical and immunological field, LabKey is a popular OS tool for sharing immunological data and building complex analysis pipelines. LabKey is currently being used by large research networks including the CAVD, the HIV Vaccine Trial Network and the Immune Tolerance Network.
+
 \subsection{Standards and code sharing}
-In the same fashion that experimental protocols need to be published in order for an experiment to be reproduced, computer code, software and data should also be published along with the results of a data analysis. Ideally, software would be open source and computer code would be well package and standardize to facilitate exchange and usability. 
-% GitHub
-% RStudio
-% Open Source
+In the same fashion that experimental protocols need to be published in order for an experiment to be reproduced, computer code, software and data should also be published along with the results of a data analysis. Ideally, software would be open source and computer code would be well package and standardize to facilitate exchange and usability. Both Bioconductor and GenePattern, mentioned above, provide facilities for users to package and share code with other users. Bioconductor is based on the R packaging system, which is highly standardized and has been a driving force behind R and Bioconductor gained in popularity. Bioconductor goes even further by 1) ensuring that all submitted packages are peer reviewed and 2) by providing version control repositories and built systems where source code is maintained, versioned and binaries automatically built for all operating systems. 
+Among other things, the peer review process ensures that the package follows some basic guidelines, are well documented, work as advertised and are useful to the community. The open source and versioning system provide full access to algorithms and their implementation which are crucial to obtain full reproducibility. 
+For users that want to version and share software code outside of the Bioconductor project, there exist many free web-based hosting services to share code (and even data). One of our favorite platform is GitHub, which the componay markets as "Social Coding for all". GitHub makes it easy for anyone to store and version control computer code, packages, create documents, webpages and even wikis to document their code. The social aspect of GitHub makes it easy for users to work on a common project. GitHub is free of all open source projects. 
+
 \subsection{Authoring tools}
 % Sweave, knitr, Rstudio, openoffice, pandoc
 % GenePattern and Word plugin
-
 
 Several tools have been proposed to automatically incorporate 
 reproducible data analysis pipelines or computer code into documents.
@@ -119,5 +119,6 @@ Ideally, all material including the Sweave source file, computer code and data, 
 
 \section{Conclusion}
 
+% Talk about the importance of bioinformatics/biostatistics and LDO groups
 
 \end{document}
