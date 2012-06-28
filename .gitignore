@@ -1,11 +1,10 @@
 .Rproj.user
 .Rhistory
 .RData
-.log
-.gz
+*.log
+*.gz
 *.tex
 *.pdf
-*.log
 *.lof
 *.fff
 BiB-review-CR.Rproj
