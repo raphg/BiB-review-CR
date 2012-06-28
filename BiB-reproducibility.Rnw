@@ -1,6 +1,6 @@
 \documentclass[11pt]{article}
 
-% Guideline
+% Guidelines
 % Abstract (short)
 % Biography (~30 words for each author)   
 % Keywords (up to six): 
