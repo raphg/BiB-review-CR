@@ -60,7 +60,7 @@
 	<array>
 		<dict>
 			<key>Bounds</key>
-			<string>{{25, 200}, {171, 72}}</string>
+			<string>{{-2, 315.14285719691941}, {171, 72}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -139,7 +139,7 @@ samples if possible\
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{31, 432}, {171, 60}}</string>
+			<string>{{67, 480}, {171, 60}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -198,7 +198,7 @@ samples if possible\
 				<key>Align</key>
 				<integer>0</integer>
 				<key>Pad</key>
-				<integer>0</integer>
+				<integer>2</integer>
 				<key>Text</key>
 				<string>{\rtf1\ansi\ansicpg1252\cocoartf1138\cocoasubrtf470
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
@@ -210,7 +210,9 @@ samples if possible\
 
 \b0 \cf0   -
 \b  
-\b0 Use dynamic reporting when possible (e.g. Sweave)\
+\b0 Use dynamic reporting when possible (
+\i e.g.,
+\i0  Sweave)\
   - Publish in open access journals}</string>
 				<key>VerticalPad</key>
 				<integer>0</integer>
@@ -218,7 +220,7 @@ samples if possible\
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{318.20634920034217, 576}, {171, 84}}</string>
+			<string>{{579.20634920034217, 456}, {171, 84}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -277,7 +279,7 @@ samples if possible\
 				<key>Align</key>
 				<integer>0</integer>
 				<key>Pad</key>
-				<integer>0</integer>
+				<integer>2</integer>
 				<key>Text</key>
 				<string>{\rtf1\ansi\ansicpg1252\cocoartf1138\cocoasubrtf470
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
@@ -301,7 +303,7 @@ samples if possible\
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{607, 423}, {171, 108}}</string>
+			<string>{{643, 297}, {171, 108}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -360,7 +362,7 @@ samples if possible\
 				<key>Align</key>
 				<integer>0</integer>
 				<key>Pad</key>
-				<integer>0</integer>
+				<integer>2</integer>
 				<key>Text</key>
 				<string>{\rtf1\ansi\ansicpg1252\cocoartf1138\cocoasubrtf470
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
@@ -375,7 +377,7 @@ samples if possible\
 \b0 Secondary data\
   - Code and software for algorithms\
    used during pre-processing (
-\i e.g.
+\i e.g.,
 \i0  \
    normalization)\
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -444,7 +446,7 @@ avoid point-and-click interfaces\
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{251, 409}, {100, 28}}</string>
+			<string>{{192.5, 418}, {91, 28}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -459,8 +461,17 @@ avoid point-and-click interfaces\
 			<dict>
 				<key>fill</key>
 				<dict>
-					<key>Draws</key>
-					<string>NO</string>
+					<key>Color</key>
+					<dict>
+						<key>a</key>
+						<string>0.8</string>
+						<key>b</key>
+						<string>1</string>
+						<key>g</key>
+						<string>1</string>
+						<key>r</key>
+						<string>1</string>
+					</dict>
 				</dict>
 				<key>shadow</key>
 				<dict>
@@ -483,8 +494,8 @@ avoid point-and-click interfaces\
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\b\fs24 \cf0 Novel hypothesis\
-Meta analysis}</string>
+\f0\b\fs24 \cf0 New knowledge\
+and data}</string>
 				<key>VerticalPad</key>
 				<integer>0</integer>
 			</dict>
@@ -549,63 +560,7 @@ dissemination}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{185.46145629882812, 416}, {54.538551330566406, 24}}</string>
-			<key>Class</key>
-			<string>ShapedGraphic</string>
-			<key>FitText</key>
-			<string>Vertical</string>
-			<key>Flow</key>
-			<string>Resize</string>
-			<key>HFlip</key>
-			<string>YES</string>
-			<key>ID</key>
-			<integer>37</integer>
-			<key>Rotation</key>
-			<real>65</real>
-			<key>Shape</key>
-			<string>AdjustableArrow</string>
-			<key>ShapeData</key>
-			<dict>
-				<key>width</key>
-				<real>24</real>
-			</dict>
-			<key>Style</key>
-			<dict>
-				<key>fill</key>
-				<dict>
-					<key>Color</key>
-					<dict>
-						<key>b</key>
-						<string>0.81812</string>
-						<key>g</key>
-						<string>0.81812</string>
-						<key>r</key>
-						<string>0.81812</string>
-					</dict>
-				</dict>
-				<key>shadow</key>
-				<dict>
-					<key>Draws</key>
-					<string>NO</string>
-				</dict>
-			</dict>
-			<key>Text</key>
-			<dict>
-				<key>Align</key>
-				<integer>2</integer>
-				<key>Text</key>
-				<string>{\rtf1\ansi\ansicpg1252\cocoartf1138\cocoasubrtf470
-{\fonttbl\f0\fnil\fcharset0 Calibri;}
-{\colortbl;\red255\green255\blue255;}
-\deftab720
-\pard\pardeftab720\qr
-
-\f0\b\fs22 \cf0 Step 6}</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>Bounds</key>
-			<string>{{243.5, 450}, {99, 77}}</string>
+			<string>{{252.5, 468}, {99, 77}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -658,7 +613,7 @@ dissemination}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{373, 540}, {54.538551330566406, 24}}</string>
+			<string>{{373, 517.23809520205373}, {54.538551330566406, 24}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -712,7 +667,7 @@ dissemination}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{459.5, 450}, {99, 90}}</string>
+			<string>{{459.5, 454.23809520205373}, {99, 90}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -764,7 +719,7 @@ dissemination}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{555.48979403180408, 413.98468848230664}, {54.538551330566406, 24}}</string>
+			<string>{{537.48979403180408, 404.98468848230664}, {54.538551330566406, 24}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -820,7 +775,7 @@ dissemination}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{478, 283}, {84, 14}}</string>
+			<string>{{460, 283}, {84, 14}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -935,7 +890,7 @@ dissemination}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{242, 283}, {66, 14}}</string>
+			<string>{{251, 283}, {66, 14}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -983,7 +938,7 @@ dissemination}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{603, 162.00000169542102}, {171, 120}}</string>
+			<string>{{576, 144.00000169542102}, {171, 120}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1042,7 +997,7 @@ dissemination}</string>
 				<key>Align</key>
 				<integer>0</integer>
 				<key>Pad</key>
-				<integer>0</integer>
+				<integer>2</integer>
 				<key>Text</key>
 				<string>{\rtf1\ansi\ansicpg1252\cocoartf1138\cocoasubrtf470
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
@@ -1059,7 +1014,7 @@ dissemination}</string>
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
 \cf0   - Code and software for algorithms\
     used during summary (
-\i e.g.
+\i e.g.,
 \i0  image\
     analysis)\
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -1072,7 +1027,7 @@ dissemination}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{522, 324}, {108.5, 63}}</string>
+			<string>{{522, 315}, {108.5, 63}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1125,7 +1080,7 @@ dissemination}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{555.10363268412038, 264.77939985629064}, {54.538551330566406, 24}}</string>
+			<string>{{536.84966429199039, 269.54130465423691}, {54.538551330566406, 24}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>ID</key>
@@ -1228,7 +1183,7 @@ dissemination}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{379.35781598531321, 143.99999378558141}, {54.538551330566406, 24}}</string>
+			<string>{{379.35781598531321, 159.07935897907794}, {54.538551330566406, 24}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1280,7 +1235,7 @@ dissemination}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{186.70156748627622, 271.27939985629064}, {54.538551330566406, 24}}</string>
+			<string>{{202.5745834794327, 273.66035225526377}, {54.538551330566406, 24}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1334,7 +1289,7 @@ dissemination}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{229, 162}, {122, 101}}</string>
+			<string>{{229, 153}, {122, 101}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1396,7 +1351,7 @@ dissemination}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{319, 27}, {171, 108}}</string>
+			<string>{{40, 144}, {171, 120}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1455,7 +1410,7 @@ dissemination}</string>
 				<key>Align</key>
 				<integer>0</integer>
 				<key>Pad</key>
-				<integer>0</integer>
+				<integer>2</integer>
 				<key>Text</key>
 				<string>{\rtf1\ansi\ansicpg1252\cocoartf1138\cocoasubrtf470
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
@@ -1636,7 +1591,7 @@ protocol\
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\b\fs36 \cf0 Circle of reproducibility}</string>
+\f0\b\fs36 \cf0 Life cycle of scientific discoveries}</string>
 			</dict>
 			<key>TextRelativeArea</key>
 			<string>{{0.10000000000000001, 0.14999999999999999}, {0.80000000000000004, 0.69999999999999996}}</string>
@@ -1694,7 +1649,7 @@ protocol\
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2012-07-05 19:20:25 +0000</string>
+	<string>2012-07-05 21:48:03 +0000</string>
 	<key>Modifier</key>
 	<string>Raphael Gottardo</string>
 	<key>NotesVisible</key>
@@ -1793,7 +1748,7 @@ protocol\
 		<key>SidebarWidth</key>
 		<integer>120</integer>
 		<key>VisibleRegion</key>
-		<string>{{0, 0}, {1275.3968350501048, 788.88889485986567}}</string>
+		<string>{{-2, 0}, {1275.396835050105, 788.88889485986567}}</string>
 		<key>Zoom</key>
 		<real>1.2599999904632568</real>
 		<key>ZoomValues</key>
