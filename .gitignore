@@ -8,6 +8,7 @@
 *.lof
 *.fff
 BiB-review-CR.Rproj
-figure/
+figure/*.eps
+figure/BiB-review*.pdf
 cache/
 BiB-reproducibility.synctex.gz
