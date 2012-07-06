@@ -60,7 +60,7 @@
 	<array>
 		<dict>
 			<key>Bounds</key>
-			<string>{{-2, 315.14285719691941}, {171, 72}}</string>
+			<string>{{10.698412794524998, 315.14285719691941}, {171, 72}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -129,17 +129,19 @@
 \f0\b\fs20 \cf0 \'95 Store and share\
   
 \b0 - Source of samples and/or\
-samples if possible\
+    samples if possible\
 
 \b   - 
-\b0 Extra samples for reproducibility (when possible/applicable) and future studies}</string>
+\b0 Extra samples for reproducibility\
+    (when possible/applicable) and\
+    future studies}</string>
 				<key>VerticalPad</key>
 				<integer>0</integer>
 			</dict>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{67, 480}, {171, 60}}</string>
+			<string>{{93.730158796235941, 480}, {171, 60}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -210,7 +212,8 @@ samples if possible\
 
 \b0 \cf0   -
 \b  
-\b0 Use dynamic reporting when possible (
+\b0 Use dynamic reporting when\
+    possible (
 \i e.g.,
 \i0  Sweave)\
   - Publish in open access journals}</string>
@@ -220,7 +223,7 @@ samples if possible\
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{579.20634920034217, 456}, {171, 84}}</string>
+			<string>{{600.38095239897348, 456}, {171, 84}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -303,7 +306,7 @@ samples if possible\
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{643, 297}, {171, 108}}</string>
+			<string>{{669.73015879623608, 297}, {171, 108}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -391,7 +394,7 @@ avoid point-and-click interfaces\
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{463, 418}, {77, 14}}</string>
+			<string>{{489.73015879623608, 418}, {77, 14}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -446,7 +449,7 @@ avoid point-and-click interfaces\
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{192.5, 418}, {91, 28}}</string>
+			<string>{{219.23015879623608, 418}, {91, 28}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -504,7 +507,7 @@ and data}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{362.5, 481}, {81, 28}}</string>
+			<string>{{389.23015879623608, 481}, {81, 28}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -560,7 +563,7 @@ dissemination}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{252.5, 468}, {99, 77}}</string>
+			<string>{{279.23015879623608, 468}, {99, 77}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -613,7 +616,7 @@ dissemination}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{373, 517.23809520205373}, {54.538551330566406, 24}}</string>
+			<string>{{399.73015879623608, 517.23809520205373}, {54.538551330566406, 24}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -667,7 +670,7 @@ dissemination}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{459.5, 454.23809520205373}, {99, 90}}</string>
+			<string>{{486.23015879623608, 454.23809520205373}, {99, 90}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -719,7 +722,7 @@ dissemination}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{537.48979403180408, 404.98468848230664}, {54.538551330566406, 24}}</string>
+			<string>{{564.21995282804016, 404.98468848230664}, {54.538551330566406, 24}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -775,7 +778,7 @@ dissemination}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{460, 283}, {84, 14}}</string>
+			<string>{{486.73015879623608, 283}, {84, 14}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -830,7 +833,7 @@ dissemination}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{364, 184}, {87, 14}}</string>
+			<string>{{390.73015879623608, 184}, {87, 14}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -890,7 +893,7 @@ dissemination}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{251, 283}, {66, 14}}</string>
+			<string>{{277.73015879623608, 283}, {66, 14}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -938,7 +941,7 @@ dissemination}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{576, 144.00000169542102}, {171, 120}}</string>
+			<string>{{609.07936519349869, 144.00000169542102}, {171, 120}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1027,7 +1030,7 @@ dissemination}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{522, 315}, {108.5, 63}}</string>
+			<string>{{548.73015879623608, 315}, {108.5, 63}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1080,7 +1083,7 @@ dissemination}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{536.84966429199039, 269.54130465423691}, {54.538551330566406, 24}}</string>
+			<string>{{563.57982308822648, 269.54130465423691}, {54.538551330566406, 24}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>ID</key>
@@ -1130,7 +1133,7 @@ dissemination}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{472, 180}, {99, 63}}</string>
+			<string>{{498.73015879623608, 180}, {99, 63}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1183,7 +1186,7 @@ dissemination}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{379.35781598531321, 159.07935897907794}, {54.538551330566406, 24}}</string>
+			<string>{{406.08797478154929, 159.07935897907794}, {54.538551330566406, 24}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1235,7 +1238,7 @@ dissemination}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{202.5745834794327, 273.66035225526377}, {54.538551330566406, 24}}</string>
+			<string>{{233.27299627395792, 272.86670145560606}, {54.538551330566406, 24}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1289,7 +1292,7 @@ dissemination}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{229, 153}, {122, 101}}</string>
+			<string>{{255.73015879623608, 153}, {122, 101}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1351,7 +1354,7 @@ dissemination}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{40, 144}, {171, 120}}</string>
+			<string>{{67.523809595893752, 144}, {171, 120}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1427,15 +1430,16 @@ protocol\
     platform\
   - Standard operating procedure\
     (SOP)\
-  - Experiment conditions not specified\
-    in SOP (Technician, time, etc.)}</string>
+  - Experiment conditions not\
+    specified in SOP (Technician, time,\
+    etc.)}</string>
 				<key>VerticalPad</key>
 				<integer>0</integer>
 			</dict>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{171.5, 315}, {99, 74}}</string>
+			<string>{{198.23015879623608, 315}, {99, 74}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -1489,7 +1493,7 @@ protocol\
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{217.6022711625306, 389.34218068924395}, {18, 18}}</string>
+			<string>{{244.33242995876668, 389.34218068924395}, {18, 18}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>ID</key>
@@ -1528,7 +1532,7 @@ protocol\
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{205.5, 381.5}, {27, 12}}</string>
+			<string>{{232.23015879623608, 381.5}, {27, 12}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>ID</key>
@@ -1551,7 +1555,7 @@ protocol\
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{220, 171}, {360, 360}}</string>
+			<string>{{246.73015879623608, 171}, {360, 360}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FontInfo</key>
@@ -1649,7 +1653,7 @@ protocol\
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2012-07-05 21:48:03 +0000</string>
+	<string>2012-07-05 21:59:12 +0000</string>
 	<key>Modifier</key>
 	<string>Raphael Gottardo</string>
 	<key>NotesVisible</key>
@@ -1748,7 +1752,7 @@ protocol\
 		<key>SidebarWidth</key>
 		<integer>120</integer>
 		<key>VisibleRegion</key>
-		<string>{{-2, 0}, {1275.396835050105, 788.88889485986567}}</string>
+		<string>{{0, 0}, {1275.3968350501048, 788.88889485986567}}</string>
 		<key>Zoom</key>
 		<real>1.2599999904632568</real>
 		<key>ZoomValues</key>
